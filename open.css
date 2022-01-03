@@ -12,7 +12,7 @@
   }
   
   body {
-    font-family: "Bungee Shade", cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif
     font-size: var(--f);
     background-color: var(--bg);
     margin-top: 300px;
@@ -143,3 +143,8 @@
     
   
 } 
+ 
+a:link
+{
+   text-decoration: none;
+}
