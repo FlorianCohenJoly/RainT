@@ -1,4 +1,7 @@
-
+body{
+  background-image: url('images/wallpapersden.com_a-simple-gradient_3840x2160.jpg');
+  background-position:100% 0%;
+}
 
 header {
     display: flex;
@@ -267,18 +270,33 @@ text-align: left;
 
 
 
+ /* animation */
+ 
 
 
+ .div1 {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: darkorchid;
+  transition: all 1s;
+}
 
 
+/*ballon de foot ------------ */
 
 
+#field {
+  height: 200px;
+  border-bottom: 3px black groove;
+  position: relative;
+}
 
-
-
-
-
-
+#ball {
+  position: absolute;
+  cursor: pointer;
+}
 
 
 
